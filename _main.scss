@@ -1,0 +1,147 @@
+@use './variables' as *;
+
+
+.main {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7rem;
+height: 100%;
+width: 100%;
+gap: 1rem;
+
+
+
+h1{
+  color: $third-color;
+  font-size: xx-large;
+  padding: 1rem;
+}
+&__input {
+  width: 30%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: x-large;
+    border: 2px solid #d1d3d4;
+    justify-content: center;
+}
+
+&__add{
+  position:relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: $secondary-color;
+    border: none;
+    gap: 3rem;
+    color: $third-color;
+    cursor: pointer;
+    outline: none;
+    width: 10%;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.main__list{
+  width: 30%;
+  height: 35rem;
+  // padding: 12px;
+  color: #000000;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-size: large;
+  border: 2px solid #d1d3d4;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  #tasks{
+   
+    // width:30rem;
+    border-radius: 10px;
+  }
+  &--title{
+    color: $third-color;
+  }
+  .task{
+    width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+.text{
+  height: 4rem;
+  width: 100%;
+  font-size: x-large;
+  color: #4e4d4d;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+ 
+}
+
+.button{
+  display: flex;
+  flex-direction: ROW;
+  justify-content: center;
+
+
+  .button--update{
+    //   position:relative;
+    // float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(255, 192, 252);
+    border: none;
+    gap: 2rem;
+    color: $third-color;
+    cursor: pointer;
+    outline: none;
+    width: 40%;
+   
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+    .button--delete{
+      border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 40%;
+    background-color: rgb(244, 172, 172);
+    border: none;
+    gap: 1rem;
+    color: $third-color;
+    cursor: pointer;
+    }
+}
+      }
+
+}
+@media screen and (min-width: 768px) {
+  main{
+    height: 100%;
+    width: 100%;
+  }
+ 
+  }
+}
+
+
