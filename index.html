@@ -9,40 +9,36 @@
     <title>To do List</title>
   </head>
   <body>
-<main>
-    <section class="main">
-      <h1>Welcome Back - Enter Task Here!</h1>
-
-      <input class="main__input" name="mainInput"
-       aria-label="add new element" type="text"
-        placeholder="Create a new todo">
+    <main class="main">
+      <h1 class="main__title">Welcome Back - Enter Task Here!</h1>
+      <div class="main__tasks">
+      <input
+        class="main__input"
+        name="mainInput"
+        aria-label="add new element"
+        type="text"
+        placeholder="Create a new todo"
+      />
       <button class="main__add">Enter task</button>
-      </div>
-      <div class="main__list"> 
-        <p class="main__list--title" >To do....</p>
+    </div>
+
+      <div class="main__list">
+        <p class="main__list--title">To do....</p>
         <div id="tasks">
-          
-        <div class="task">
-					
-        
-            
-						<input 
-							type="text" 
-							class="text" 
-							value="     edit tasks in here..."
-							readonly>
-      <div class="button">
-          <button class="button--update">Update</button>
-          <button class="button--delete">Delete</button>
-        </div>
-          </div >
-        
-   
-
-
+          <div class="task">
+            <input
+              type="text"
+              class="text"
+              value="     edit tasks in here..."
+              readonly
+            />
+            <div class="button">
+              <button class="button--update">Update</button>
+              <button class="button--delete">Delete</button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
-  </main>
   </body>
 </html>

@@ -2,14 +2,10 @@
 
 
 .main {
-
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 7rem;
-height: 100%;
-width: 100%;
 gap: 1rem;
 
 
@@ -19,13 +15,11 @@ h1{
   font-size: xx-large;
   padding: 1rem;
 }
+
 &__input {
-  width: 30%;
-    height: 45px;
-    padding: 12px;
+
     color: #111111;
     font-weight: 500;
-    position: relative;
     border-radius: 5px;
     font-family: 'Poppins',sans-serif;
     font-size: x-large;
@@ -34,8 +28,7 @@ h1{
 }
 
 &__add{
-  position:relative;
-    float: right;
+
     font-weight: 500;
     font-size: 16px;
     background-color: $secondary-color;
@@ -43,17 +36,18 @@ h1{
     gap: 3rem;
     color: $third-color;
     cursor: pointer;
-    outline: none;
-    width: 10%;
+
     height: 35px;
     border-radius: 5px;
     font-family: 'Poppins',sans-serif;
 }
-
+.main__tasks{
+  display: flex;
+}
 .main__list{
-  width: 30%;
-  height: 35rem;
-  // padding: 12px;
+
+  height: 25rem;
+
   color: #000000;
   font-weight: 500;
   position: relative;
@@ -62,13 +56,10 @@ h1{
   font-size: large;
   border: 2px solid #d1d3d4;
   display: flex;
-  // justify-content: center;
-  align-items: center;
   flex-direction: column;
   background-color: white;
   #tasks{
    
-    // width:30rem;
     border-radius: 10px;
   }
   &--title{
@@ -76,8 +67,7 @@ h1{
   }
   .task{
     width: 100%;
-    // display: flex;
-    // flex-direction: column;
+  
     justify-content: center;
     align-items: center;
     
@@ -136,10 +126,10 @@ h1{
 
 }
 @media screen and (min-width: 768px) {
-  main{
-    height: 100%;
-    width: 100%;
-  }
+  // main{
+  //   height: 100%;
+  //   width: 100%;
+  // }
  
   }
 }
